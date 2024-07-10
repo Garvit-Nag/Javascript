@@ -29,3 +29,27 @@ const myFunction = function(){
 }
 
 console.log(typeof bigNumber); // typeof null will be object
+
+// Stack (for primitve type), Heap (for non primitve memory type)
+
+let myYoutubename = "Gonza FC"
+
+let anothername = myYoutubename
+
+anothername = "Sidemen"
+
+console.log(anothername);
+console.log(myYoutubename);
+// as u can see above no chage in original value u get a copy in primitive types
+
+let userOne = {
+    email: "grv@gmail.com",
+    upi: "upi@oksbi"
+}
+
+let userTwo = userOne
+
+userTwo.email = "gonza@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+// as u can see above change in original value in non primitive types
