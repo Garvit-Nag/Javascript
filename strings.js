@@ -36,4 +36,4 @@ console.log(url.replace('%20', '-')); // replace "%20" with "-"
 console.log(url.includes('gonza')); // to check if a keyword exists in string or not
 
 
-console.log(gameName.split('-')); // split the string based on some criteria "-" into array 
+console.log(gameName.split('-')); // split the string based on some criteria "-" into array of trings
